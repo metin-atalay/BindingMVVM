@@ -13,6 +13,8 @@
 		F64D938627B969D700531E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64D938427B969D700531E10 /* Main.storyboard */; };
 		F64D938827B969D800531E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64D938727B969D800531E10 /* Assets.xcassets */; };
 		F64D938B27B969D800531E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64D938927B969D800531E10 /* LaunchScreen.storyboard */; };
+		F64D939427B96A4E00531E10 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D939327B96A4E00531E10 /* LoginViewModel.swift */; };
+		F64D939727B96A8600531E10 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D939627B96A8600531E10 /* BindingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F64D938727B969D800531E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64D938A27B969D800531E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F64D938C27B969D800531E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64D939327B96A4E00531E10 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F64D939627B96A8600531E10 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		F64D937D27B969D700531E10 /* BindingMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				F64D939527B96A6200531E10 /* Custom Views */,
+				F64D939227B96A3200531E10 /* LoginViewModel */,
 				F64D937E27B969D700531E10 /* AppDelegate.swift */,
 				F64D938027B969D700531E10 /* SceneDelegate.swift */,
 				F64D938227B969D700531E10 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				F64D938C27B969D800531E10 /* Info.plist */,
 			);
 			path = BindingMVVM;
+			sourceTree = "<group>";
+		};
+		F64D939227B96A3200531E10 /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F64D939327B96A4E00531E10 /* LoginViewModel.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		F64D939527B96A6200531E10 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F64D939627B96A8600531E10 /* BindingTextField.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64D939427B96A4E00531E10 /* LoginViewModel.swift in Sources */,
 				F64D938327B969D700531E10 /* ViewController.swift in Sources */,
+				F64D939727B96A8600531E10 /* BindingTextField.swift in Sources */,
 				F64D937F27B969D700531E10 /* AppDelegate.swift in Sources */,
 				F64D938127B969D700531E10 /* SceneDelegate.swift in Sources */,
 			);
